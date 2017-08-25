@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">IngresoDatos</string>
+    <string name="Agregar_Datos">Agregar Datos</string>
+    <string name="Texto_Nombre">Nombre completo</string>
+    <string name="Texto_Telefono">Teléfono</string>
+    <string name="Texto_Email">Email</string>
+    <string name="Texto_Descripcion">Descripción del Contacto</string>
+    <string name="Texto_BotonSig">Siguiente</string>
+    <string name="date_button_set">Ingrese fecha</string>
+    <string name="date_label_set">Seleccione el botón Para ingresar fecha</string>
+    <string name="date_view_set">La fecha de nacimiento es: </string>
+    <string name="Texto_Confirmar">Confirmar Datos</string>
+    <string name="date_selected"></string>
+    <string name="Texto_BotonEdit">Editar Datos</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="texto">20dp</dimen>
+    <dimen name="superior">5dp</dimen>
+    <dimen name="Buton">45dp</dimen>
+    <dimen name="Calendar">100dp</dimen>
+    <dimen name="tamano">12dp</dimen>
+    <dimen name="tamanoa">30dp</dimen>
+</resources>

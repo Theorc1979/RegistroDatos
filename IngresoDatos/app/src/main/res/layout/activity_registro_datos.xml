@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistroDatos">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/CNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_marginRight="@dimen/texto"
+        >
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:hint="@string/Texto_Nombre"
+            android:inputType="text"
+            android:textSize="@dimen/tamano"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/Cnacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_marginTop="@dimen/superior"
+        android:textSize="@dimen/tamano"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:onClick="setDate"
+        android:text="@string/date_button_set"
+        android:textSize="@dimen/tamano"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:text="@string/date_label_set"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/tamano"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="@string/date_view_set"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/tamano"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:text="@string/date_selected"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/tamano"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/CTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_marginRight="@dimen/texto"
+        >
+
+        <EditText
+            android:id="@+id/editTextTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Texto_Telefono"
+            android:inputType="text"
+            android:textSize="@dimen/tamano"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/CMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_marginRight="@dimen/texto"
+        >
+
+        <EditText
+            android:id="@+id/editTextmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Texto_Email"
+            android:inputType="text"
+            android:textSize="@dimen/tamano"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/CDescrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/superior"
+        android:layout_marginLeft="@dimen/texto"
+        android:layout_marginRight="@dimen/texto"
+        >
+
+        <EditText
+            android:id="@+id/editTextDescrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Texto_Descripcion"
+            android:inputType="text"
+            android:textSize="@dimen/tamano"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/Cbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Texto_BotonSig"
+        android:layout_marginTop="@dimen/Buton"
+        android:textColor="@color/colorPrimary"
+        />
+
+
+</LinearLayout>
